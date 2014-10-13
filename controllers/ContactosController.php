@@ -6,7 +6,7 @@ class ContactosController{
 
 	public function indexAction(){
 
-		exit('contactos');
+		return new View('contactos');
 
 	}
 
